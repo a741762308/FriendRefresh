@@ -1,7 +1,7 @@
 #:running: FriendRefresh:running:
 仿微信朋友圈刷新
 #动态截图
-![](https://github.com/a741762308/LoadingIndicator/blob/master/sreenshot/GIF.gif)
+![](https://github.com/a741762308/FriendRefresh/blob/master/sreenshot/GIF.gif)
 #使用方法
 ## build.gradle添加
 ```java
@@ -10,6 +10,7 @@ compile 'com.jsqix.dq.friend:friendMoment:1.0.0'
 }
 ```
 ##java代码
+```java
   mListAdapter = new ListAdapter();
         mWrapListView = (FriendRefreshView) findViewById(R.id.wrapview);
         mWrapListView.setAdapter(mListAdapter);
@@ -20,11 +21,14 @@ compile 'com.jsqix.dq.friend:friendMoment:1.0.0'
 //        mWrapListView.setTopHead();//修改头像
         mWrapListView.setOnRefreshListener(this);
         mWrapListView.setOnItemClickListener(this);
+```
 ##Layout
+```java
   <com.jsqix.dq.friend.FriendRefreshView
         android:id="@+id/wrapview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+```
 #License
 
     Copyright 2015 a741762308
