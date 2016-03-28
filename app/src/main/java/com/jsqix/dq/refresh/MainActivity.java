@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity implements OnRefreshListener
         mWrapListView = (FriendRefreshView) findViewById(R.id.wrapview);
         mWrapListView.setAdapter(mListAdapter);
         mWrapListView.setLoadEnable(true);//加载更多
+//        mWrapListView.setTopbackground();//修改背景
+//        mWrapListView.setTopName();//修改用户名
+//        mWrapListView.setTopNameColor();//修改字体颜色
+//        mWrapListView.setTopHead();//修改头像
         mWrapListView.setOnRefreshListener(this);
         mWrapListView.setOnItemClickListener(this);
     }
