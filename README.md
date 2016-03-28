@@ -1,7 +1,7 @@
 #:running: FriendRefresh:running:
 仿微信朋友圈刷新
 #动态截图
-![](https://github.com/a741762308/FriendRefresh/blob/master/sreenshot/GIF.gif)
+![](https://github.com/a741762308/FriendRefresh/blob/master/screenshoot/GIF.gif)
 #使用方法
 ## build.gradle添加
 ```java
